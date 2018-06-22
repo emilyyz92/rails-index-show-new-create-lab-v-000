@@ -7,5 +7,6 @@ class CouponController < ApplicationController
   end
 
   def create
+    Coupon.create(params[:coupon])
   end
 end
